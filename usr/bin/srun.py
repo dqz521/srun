@@ -5,7 +5,7 @@ import struct
 import socket
 from time import sleep
 
-CONF = "srun.conf"
+CONF = "./etc/srun.conf"
 
 def get_mac_address(): 
 	mac=uuid.UUID(int = uuid.getnode()).hex[-12:] 
